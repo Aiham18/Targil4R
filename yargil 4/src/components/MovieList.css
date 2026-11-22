@@ -1,0 +1,4 @@
+.movie-list { margin: 28px 0; }
+.movie-list__title { margin-bottom: 16px; }
+.movie-list__grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 18px; }
+.movie-list__empty { padding: 32px; text-align: center; color: var(--muted); border: 1px dashed var(--border); border-radius: var(--radius); }

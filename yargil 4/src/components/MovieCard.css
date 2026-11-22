@@ -1,0 +1,12 @@
+.movie-card { background: #171e2c; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.movie-card__poster { height: 190px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; padding: 16px; text-align: center; }
+.movie-card__poster span { font-size: 38px; }
+.movie-card__poster strong { font-size: 23px; }
+.movie-card__body { padding: 16px; position: relative; }
+.movie-card__body h3 { text-align: right; margin: 0 0 10px 30px; }
+.movie-card__body p { color: var(--muted); margin: 8px 0; }
+.heart { position: absolute; left: 12px; top: 12px; color: #fb7185; font-size: 26px; background: none; border: 0; cursor: pointer; }
+.rating { display: flex; align-items: center; flex-wrap: wrap; gap: 5px; font-size: 14px; }
+.rating button { color: var(--gold); background: none; border: none; cursor: pointer; font-size: 22px; padding: 0 2px; }
+.movie-card__body .available { color: #86efac; }
+.movie-card__body .unavailable { color: #fca5a5; }
